@@ -6,3 +6,4 @@
 // removeBlanks(" Pl ayTha tF u nkyM usi c ") => "PlayThatFunkyMusic"
 // removeBlanks("I can not BELIEVE it's not BUTTER") => "IcannotBELIEVEit'snotBUTTER"
 
+console.log("sharif")
