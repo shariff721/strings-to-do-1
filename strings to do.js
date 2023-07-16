@@ -102,3 +102,21 @@ console.log(countNonSpaces("Honey pie, you are driving me crazy"))
 // Examples:
 // removeShorterStrings(['Good morning', 'sunshine', 'the', 'Earth', 'says', 'hello'], 4) => ['Good morning', 'sunshine', 'Earth', 'says', 'hello']
 // removeShorterStrings(['There', 'is', 'a', 'bug', 'in', 'the', 'system'], 3) => ['There', 'bug', 'the', 'system']
+
+
+
+function removeShorterStrings(arr, len) {
+    let newStr = []
+
+    let nextIndex = 0
+
+    for (let value in arr) {
+        if (arr[value].length >= len) {
+            newStr[nextIndex++] = arr[value]
+        }
+    }
+
+    return newStr
+}
+
+console.log(removeShorterStrings(['There', 'is', 'a', 'bug', 'in', 'the', 'system'], 3))
